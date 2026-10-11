@@ -63,16 +63,16 @@ nav a {
 
 .btn {
   display: inline-block;
-  background:#f6f3ee;
-  color:black;
+  background: #f6f3ee;
+  color: black;
   padding: 12px 24px;
   border-radius: 8px;
   text-decoration: none;
-  transition:all 0.8s ease;
+  transition: all 0.8s ease;
 }
 .btn:hover {
   transform: translateY(-2px);
-  background:wheat;
+  background: wheat;
 }
 
 .hero-img {
@@ -105,7 +105,7 @@ nav a {
 .about-container {
   display: flex;
   gap: 60px;
-  align-items: flex-start; 
+  align-items: flex-start;
   min-width: 0;
 }
 .about-left .big {
@@ -128,7 +128,7 @@ nav a {
   min-width: 400px;
   padding-left: 40px;
   margin-left: 20px;
-  border-left: 3px solid rgba(0, 0, 0, 0.19); 
+  border-left: 3px solid rgba(0, 0, 0, 0.19);
 }
 
 .about-right .info {
@@ -153,9 +153,10 @@ nav a {
   margin-bottom: 25px;
   color: #f6f3ee;
 }
+
 .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 .card {
@@ -164,6 +165,7 @@ nav a {
   border-radius: 16px;
   transition: 0.3s;
   border: 5px solid #11253a;
+  flex: 1 1 280px;
 }
 .card h4 {
   color: #11253a;
